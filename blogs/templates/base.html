@@ -1,0 +1,14 @@
+{% comment %} this is a comment {% endcomment %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{%block title%}My Blog Website{%endblock title%}</title>
+    </head>
+
+    <body>
+        {% include "navbar.html" %}
+        {% block content %}{% endblock content %}
+    </body>
+
+</html>
+    
